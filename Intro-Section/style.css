@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(244, 240, 234);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    height: 30px;
+    width: 90px;
+    
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    color: grey;
+    cursor: pointer;
+    margin-top: -10px;
+}
+ul li:hover{
+    color: black;
+}
+.btn2{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(244, 240, 234);
+    border:1px solid grey;
+    color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid black;
+    color: black;
+}
+.btn1{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(244, 240, 234);
+    border: none;
+    color: grey;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: black;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 150px;
+}
+.div3{
+    height: 200vh;
+    width: 60vh;
+}
+.div3 h1{
+    font-size: 50px;
+}
+.div3 p{
+    color: grey;
+}
+.btn3{
+    height: 30px;
+    width: 90px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.btn3:hover{
+    background-color: rgb(244, 240, 234);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+.logos{
+    margin-top: 40%;
+    
+}
+
+.div4 img{
+    height: 500px;
+    width: fit-content;
+}
